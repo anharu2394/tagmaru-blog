@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Tagmaru Blog`,
+    title: `たぐまるのブログ`,
     author: `Anharu`,
     description: `The Blog and Documentation of Tagmaru`,
     siteUrl: `https://blog.tagmaru.me/`,
     social: {
-      twitter: `_anharu2`,
+      twitter: `tagmaru_me`,
     },
   },
   plugins: [{
