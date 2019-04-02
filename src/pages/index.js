@@ -22,7 +22,12 @@ class BlogIndex extends React.Component {
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <div key={node.fields.slug}>
+            <div key={node.fields.slug} style={{
+                margin: 30,
+                'box-shadow': 'rgba(10, 10, 10, 0.3) 0px 2px 3px, rgba(10, 10, 10, 0.1) 0px 0px 0px 1px',
+                'border-radius': 6,
+                'padding': 15,
+              }}>
               <h3
                 style={{
                   marginBottom: rhythm(1 / 4),

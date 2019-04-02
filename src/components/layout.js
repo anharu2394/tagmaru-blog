@@ -72,7 +72,7 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, 
+          © {new Date().getFullYear()},
           {` `}
           <a href="https://tagmaru.me">Tagmaru</a>
         </footer>
